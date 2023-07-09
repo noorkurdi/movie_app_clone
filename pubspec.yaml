@@ -1,0 +1,44 @@
+name: movies_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  device_preview: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_rating_bar: ^4.0.1
+  flutter_svg: ^2.0.2
+  glassmorphism: ^3.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/home_pages_photos/
+    - assets/images/masks/
+    - assets/images/movies_posters/
+    - assets/images/svg/
+
+
+  fonts:
+    - family: IndieFlower
+      fonts:
+        - asset: assets/fonts/IndieFlower-Regular.ttf
+          weight: 400
+    - family: Jost
+      fonts:
+        - asset: assets/fonts/Jost-Regular.ttf
+          weight: 400
+
